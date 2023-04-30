@@ -1,0 +1,23 @@
+n1 = str(input("Enetr name 1:"))
+n2 = str(input("Enetr name 2:"))
+n3 = str(input("Enetr name 3:"))
+n4 = str(input("Enetr name 4:"))
+n5 = str(input("Enetr name 5:"))
+
+set1 = set()
+# set1 = set(n1,n2,n3,n4,n5)
+set1.add(n1)
+set1.add(n2)
+set1.add(n3)
+set1.add(n4)
+set1.add(n5)
+
+
+print(set1,"originaml")
+set1.remove(n1)
+set1.add('rashid khan')
+print("after modifying one element",set1)
+set1.discard(n1)
+set1.discard(n3)
+print("after deleting one existing and another not existing element\n",set1)
+# print(set1.remove(any(set1)))

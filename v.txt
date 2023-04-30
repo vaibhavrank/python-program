@@ -1,0 +1,1 @@
+[1, 5, 3, 4, 5, 5, 5, 5, 5]#include<iostream>using namespace std;int main(){cout<<"This is first file handling program ever\n";return 0;}

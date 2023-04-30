@@ -1,0 +1,5 @@
+m1=input("enter 1:")
+m2=input("enter 2:")
+m3=input("enter 3:")
+m4=input("enter 4:")
+m5=input("enter 5:")
